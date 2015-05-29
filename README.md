@@ -1,16 +1,18 @@
 # graphviz-wrapper
 A wrapper for graphviz for PLF course.
 
-
 Compilar con:
+```
    gcc main.c -o prueba
+```
 
 Ejecutar con:
+```
    prueba.exe
+```
 
 Programa de ejemplo:
-   
-```
+   ```
 int main() {
     automaton a;
 
