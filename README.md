@@ -55,3 +55,6 @@ int main() {
     return (0);
 }
 ```
+Y el resultado sería:
+
+![alt text](https://github.com/rtapiapincheira/graphviz-wrapper/blob/master/diagrama.png "diagrama.png")
