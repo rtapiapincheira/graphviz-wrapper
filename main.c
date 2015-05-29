@@ -71,11 +71,15 @@ int graphviz_write(automaton *a, const char *filename) {
     return (1);
 }
 
+/**
+ * @param dot_filename Imagen creada por la funcion graphviz_write.
+ * @param image_filename Imagen .png que sera escrita, con el diagrama.
+ * @return  1 si la conversion fue OK, 0 si hubo error (de algun tipo).
+ */
 int graphviz_convert(const char *dot_filename, const char *image_filename) {
     char command[4096+1];
     sprintf(command, "dot -Tpng %s -o %s", dot_filename, image_filename);
     return (system(command) == 0 ? 1 : 0);
-
 }
 
 transition make_transition(int from, const char *pattern, int to) {

@@ -13,3 +13,6 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.c
+
+
+OTHER_FILES += README.md
