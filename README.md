@@ -10,7 +10,8 @@ Ejecutar con:
 
 Programa de ejemplo:
    
-`int main() {
+```
+int main() {
     automaton a;
 
     // Numero de estados
@@ -48,4 +49,5 @@ Programa de ejemplo:
     printf("Archivo guardado correctamente. Chao.\n");
 
     return (0);
-}`
+}
+```
