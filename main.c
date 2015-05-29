@@ -109,6 +109,11 @@ int main() {
     a.transitions[3] = make_transition(2, "b", 2);
     a.transitions[4] = make_transition(1, "a", 0);
 
+    if (!graphviz_available()) {
+        printf("No se encuentra instalado Graphviz, o bien no esta en el PATH, abortando\n");
+        return (1);
+    }
+
     if (!graphviz_write(&a, "secuencia.dot")) {
         printf("No se puede escribir archivo .dot, abortando\n");
         return (1);
