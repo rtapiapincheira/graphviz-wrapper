@@ -1,6 +1,8 @@
 # graphviz-wrapper
 A wrapper for graphviz for PLF course.
 
+http://www.graphviz.org/Download..php
+
 Compilar con:
 ```
    gcc main.c -o prueba
