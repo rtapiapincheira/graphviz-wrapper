@@ -8,10 +8,9 @@ Compilar con:
 Ejecutar con:
    prueba.exe
 
-   
 Programa de ejemplo:
    
-int main() {
+`int main() {
     automaton a;
 
     // Numero de estados
@@ -49,4 +48,4 @@ int main() {
     printf("Archivo guardado correctamente. Chao.\n");
 
     return (0);
-}
+}`
