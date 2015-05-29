@@ -8,7 +8,6 @@ Compilar con:
 Ejecutar con:
    prueba.exe
 
-   
 Programa de ejemplo:
    
 int main() {
